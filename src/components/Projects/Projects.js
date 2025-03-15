@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Bidding from "../../Assets/Projects/Bidding.png";
+import GeoLocator from "../../Assets/Projects/GeoLocator.jpeg";
+import FruTect from "../../Assets/Projects/Frutect.jpeg";
+import Swipe from "../../Assets/Projects/Swipe.png";
+import FitSRM from "../../Assets/Projects/FitSRM.png";
 
 function Projects() {
   return (
@@ -23,68 +22,53 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={FitSRM}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="FitSRM"
+              description="Developed a fitness app using React Native, FastAPI, and SQL for SRM faculty, featuring a step counter, calorie tracker, rewards system, and leaderboard. Implemented secure authentication, seamless data sync, and an intuitive UI/UX. Optimized API performance and hosted the backend on a cloud platform for scalability."
+              ghLink="https://github.com/Akash-Balaji003/fitness_app_frontend"
+              demoLink="https://drive.google.com/file/d/1Mw4dIE75TcFHCu7ZtnBA3j397kcilt6n/view?usp=drive_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={FruTect}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="FruTect"
+              description="Developed a fruit spoilage detection system using IoT sensors and machine learning. Implemented a CNN for image classification, followed by a linear regression model that predicts fruit expiration based on image data and environmental factors such as temperature, humidity and CO2 levels."
+              ghLink="https://github.com/Akash-Balaji003/Fruit_SpoilDetection"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Swipe}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Swipe"
+              description="Developed and deployed DigiVCard, a digital visiting card application using React Native and FastAPI, hosted on Microsoft Azure for scalability and reliability. Enabled users to create and manage multiple profiles under a single account, facilitating seamless digital networking. Implemented secure data storage, optimized API performance, and designed an intuitive UI/UX for an enhanced user experience. Leveraged Azure services to ensure high availability and efficient backend operations."
+              ghLink="https://github.com/Akash-Balaji003/SwippAppFrontend"
+              demoLink="https://drive.google.com/file/d/1CO6HUOB83Xh7mJJLjm9xpgnaGOKuF3UO/view?usp=drive_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={GeoLocator}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="GeoLocator"
+              description="This project is a geolocation-based application that allows users to create accounts, authenticate securely with token-based authentication, and set their location using the Google Maps API. The project is built with a Python backend, handling authentication, database interactions, and communication with the Google Maps API."
+              ghLink="https://github.com/Akash-Balaji003/OptaGeolocation"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Bidding}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Bidding Cost Estimator"
+              description="Finalist in Pragyan Hackathon, developed a bidding optimizer system to calculate the accurate construction cost range, preventing fraud and corruption in government auctions using Machine Learning, Python(FastAPI), and data analytics."
+              ghLink="https://github.com/Akash-Balaji003/Tender_Optimiser_Backend"
             />
           </Col>
         </Row>

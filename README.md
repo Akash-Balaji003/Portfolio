@@ -1,76 +1,66 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Akash Balaji – Portfolio
 
-<br/>
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a developer.
 
-<center>
+## About Me
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+I'm Akash Balaji, a passionate software developer currently studying at SRMIST Kattankulathur. I enjoy exploring new technologies, solving problems, and building impactful solutions. Beyond coding, I love reading books, playing sports, and traveling.
 
-</center>
+## Tech Stack
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+- **Frontend:** React, React Native
+- **Backend:** FastAPI, Python, NodeJs
+- **Database:** MySQL, SQL
+- **Other Tools:** Git, Cloud Services (AWS/Azure)
 
-## TL;DR
+## Projects
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+### 1. **Fitness App for SRM Faculty**
 
-## Built With
+- Built with React Native, FastAPI, and SQL.
+- Features include a step counter, calorie tracker, reward system, and leaderboard.
+- Implemented secure authentication, seamless data sync, and cloud-hosted backend.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+### 2. **Fruit Spoil Detection System**
 
-This project was built using these technologies.
+- Developed a CNN model to predict fruit spoilage.
+- Integrated IoT sensors (DHT11, MQ135) with ESP8266 to gather environmental data.
+- FastAPI backend stores sensor data in a MySQL database.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+### 3. **SwipeApp**
 
-## Features
+- Created a social app with QR-based friending, multi-profile support, and real-time chat.
+- Utilized React Native for the frontend and FastAPI for the backend.
 
-**📖 Multi-Page Layout**
+## How to Run
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+1. Clone the repository:
 
-**📱 Fully Responsive**
+```bash
+git clone https://github.com/Akash-Balaji003/portfolio.git
+cd portfolio
+```
 
-## Getting Started
+2. Install dependencies:
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+```bash
+npm install
+```
 
-## 🛠 Installation and Setup Instructions
+3. Run the project:
 
-1. Installation: `npm install`
+```bash
+npm start
+```
 
-2. In the project directory, you can run: `npm start`
+## Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+- LinkedIn: [Akash Balaji](https://www.linkedin.com/in/akash-balaji)
+- GitHub: [Akash-Balaji003](https://github.com/Akash-Balaji003)
+- Email: akashbalaji@example.com
 
-## Usage Instructions
+Feel free to explore the projects and reach out for collaboration or feedback!
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+---
 
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+Would you like to add sections for certifications, blogs, or testimonials? Let me know!
